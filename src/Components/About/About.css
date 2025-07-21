@@ -4,29 +4,35 @@
     align-items: center;
     justify-content: center;
     gap: 5rem;
-    margin: 5rem 10rem;
+    margin: 5rem 7rem;
 }
 
 .about-section{
     display: flex;
-    gap: 5rem;
+    gap: 3rem;
 }
+
+.about-left img{
+    width: 20rem;
+}
+
 .about-right{
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 2rem;
 }
 .about-para{
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
-    font-size: 1.5rem;
+    gap: .5rem;
+    font-size: 1.2rem;
     font-weight: 500;
+    text-align: justify;
 }
 .about-skills{
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: .5rem;
 }
 .about-skill{
     display: flex;
@@ -51,7 +57,7 @@
    display: flex;
    width: 100%;
    justify-content: space-around;
-   margin-bottom: 5rem;
+   margin-bottom: 2rem;
 }
 .about-achievment{
    display: flex;

@@ -4,28 +4,15 @@
     align-items: center;
     justify-content: center;
     gap: 5rem;
-    margin: 5rem 10rem;
+    margin: 5rem 7rem;
 }
-.services-title{
-    position: relative;
-}
-.services-title h1{
-    padding: 0px 1.9rem;
-    font-size: 5rem;
-    font-weight: 600;
-}
-.services-title img{
-    position: absolute;
-    bottom:0;
-    right: 0;
-    z-index: -1;
-}
+
 .services-format{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1.2rem;
-    padding: 3.8rem;
+    gap: 1rem;
+    padding: 2rem;
     border-radius: .6rem;
     border: 2px solid white;
     transition:0.4s;
@@ -34,7 +21,7 @@
 .services-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2.5rem;
+    gap: 1.5rem;
     margin-bottom: 5rem;
 }
 .services-format h3{
@@ -57,7 +44,7 @@
 }
 .services-readmore{
     display: flex;
-    gap: 1.2rem;
+    gap: .8rem;
     align-items: center;
     margin-top: 1rem;
 }

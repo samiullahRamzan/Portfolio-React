@@ -14,35 +14,47 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus necessitatibus architecto cum id laborum ipsa! Sunt dignissimos libero quibusdam iste maxime repudiandae nisi qui quas, architecto vitae dolorem veniam placeat.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A reprehenderit, quaerat nesciunt molestias repellendus at provident nisi corporis ex eveniet ut minima suscipit qui! Neque corporis nemo architecto tempora ad?</p>
+                    <p>I’m a Software Engineering graduate with a strong foundation in DSA, OOP, and Database Systems.With 2+ years of hands-on experience in Full Stack Web and Mobile App Development, I specialize in technologies like React.js, Node.js, Express, MongoDB, and React Native.</p>
+                    <p> I’m a team player, an effective communicator, and always meet project timelines.I enjoy turning complex ideas into elegant, user-friendly solutions and continuously push myself to learn and adapt to new tools and technologies.</p>
                 </div>
                 <div className="about-skills">
                     <div className="about-skill">
                         <p>HTML & CSS</p>
-                        <hr style={{width:'50%'}} />
+                        <hr style={{width:'90%'}} />
                     </div>
                     <div className="about-skill">
-                        <p>React JS</p>
-                        <hr style={{width:'70%'}} />
+                        <p>Javascript</p>
+                        <hr style={{width:'65%'}} />
                     </div>
                     <div className="about-skill">
-                        <p>JavaScript</p>
+                        <p>MERN</p>
+                        <hr style={{width:'65%'}} />
+                    </div>
+                    <div className="about-skill">
+                        <p>SQL</p>
+                        <hr style={{width:'65%'}} />
+                    </div>
+                    <div className="about-skill">
+                        <p>Git/Github</p>
+                        <hr style={{width:'65%'}} />
+                    </div>
+                    <div className="about-skill">
+                        <p>Firebase</p>
                         <hr style={{width:'60%'}} />
                     </div>
                     <div className="about-skill">
-                        <p>Next JS</p>
-                        <hr style={{width:'50%'}} />
+                        <p>AWS-S3</p>
+                        <hr style={{width:'60%'}} />
                     </div>
                 </div> 
             </div>
         </div>
         <div className="about-achievments">
             <div className="about-achievment">
-                <h1>10+</h1>
+                <h1>2+</h1>
                 <p>YEARS OF EXPERIENCE</p>
             </div>
-            <hr />
+            {/* <hr />
             <div className="about-achievment">
                 <h1>90+</h1>
                 <p>PROJECTS COMPLETED </p>
@@ -51,7 +63,7 @@ const About = () => {
             <div className="about-achievment">
                 <h1>15+</h1>
                 <p>Happy Clients</p>
-            </div>
+            </div> */}
         </div>
     </div>
   )
