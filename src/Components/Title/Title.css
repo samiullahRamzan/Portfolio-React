@@ -1,0 +1,14 @@
+.title{
+    position: relative;
+}
+.title h1{
+   padding: 0px 1.9rem;
+   font-size: 4rem;
+   font-weight: 600;
+}
+.title img{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}

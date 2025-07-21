@@ -3,14 +3,12 @@ import './Services.css'
 import theme_pattern from '../../assets/theme_pattern.svg';
 import Services_Data from '../../assets/services_data';
 import arrow_icon from '../../assets/arrow_icon.svg'
+import Title from '../Title/Title';
 
 const Services = () => {
   return (
     <div id='services' className='services'>
-        <div className="services-title">
-            <h1>My Services</h1>
-            <img src={theme_pattern} alt="" />
-        </div>
+        <Title name='My Services' />
         <div className="services-container">
             {Services_Data.map((service,index)=>{
                 return <div key={index} className="services-format">
