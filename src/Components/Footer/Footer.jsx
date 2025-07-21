@@ -2,14 +2,15 @@ import React from 'react';
 import './Footer.css';
 import footer_logo from '../../assets/footer_logo.svg'
 import user_icon from '../../assets/user_icon.svg'
+import mylogo from '../../assets/sami.jpg';
 
 const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-top">
             <div className="footer-top-left">
-                <img src={footer_logo} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quaerat et suscipit, tempora laboriosam praesentium dolor nostrum vel asperiores nemo velit tempore culpa. Sunt veritatis exercitationem itaque eius soluta. Laborum?</p>
+                <img src={mylogo} alt="" className='logo' />
+                <p>I am a Full Stack Developer from Pakistan with 2 years of experience.</p>
             </div>
             <div className="footer-top-right">
                 <div className="footer-email-input">
