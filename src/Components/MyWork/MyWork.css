@@ -29,8 +29,8 @@
 }
 .mywork-container img{
     box-sizing: border-box;
-    width: 27rem;
-    height: 18rem;
+    width: 24rem;
+    height: 14rem;
     transition: 0.3s;
     cursor: pointer;
 }
